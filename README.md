@@ -38,7 +38,7 @@ Type in <b>passwd [user name] -l</b> to lock the account as follows:
 ## Chapter 2: Copy files to a different directory
 -Step 1:
 ---
-Type in <b>cp SOURCE DEST</b> adn then check if the files have succesfully been copied using <b>ls</b> as follows :
+Type in <b>cp SOURCE DEST</b> and then check if the files have succesfully been copied using <b>ls</b> as follows :
 <br />
 <br />
 <img src="https://imgur.com/5Gu0vQu.png" height="65%" width="65%" alt="File Explorer"/>
@@ -56,6 +56,8 @@ We can see by listing the contents of the cflynn directory that the project dire
 -Step 1:
 ---
 Type <b>rm [Option] file...</b>
+<br />
+<br />
 -Step 2:
 ---
 When prompted to <b>remove regular file</b> type <b>y</b>
