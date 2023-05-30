@@ -12,7 +12,7 @@ In this tutorial we will be going through several of the following configuration
 |     5| Change the user owner and group owner of a file |
 |     6| Change permissions of a file |
 
-## Chapter 1: Switching to root account privileges and locking another user account
+# Chapter 1: Switching to root account privileges and locking another user account
 -Step 1:
 ---
 Open the terminal from your Linux desktop and type in **su - root** 
@@ -35,7 +35,7 @@ Type in <b>passwd [user name] -l</b> to lock the account as follows:
 <img src="https://imgur.com/pgMAw6k.png" height="65%" width="65%" alt="File Explorer"/>
 <br />
 <br />
-## Chapter 2: Copy files to a different directory
+# Chapter 2: Copy files to a different directory
 -Step 1:
 ---
 Type in <b>cp SOURCE DEST</b> and then check if the files have succesfully been copied using <b>ls</b> as follows :
@@ -44,7 +44,7 @@ Type in <b>cp SOURCE DEST</b> and then check if the files have succesfully been 
 <img src="https://imgur.com/5Gu0vQu.png" height="65%" width="65%" alt="File Explorer"/>
 <br />
 <br />
-## Chapter 3: Move directory to a different directory
+# Chapter 3: Move directory to a different directory
 Type <b> mv SOURCE DEST</b> as follows :
 <br />
 <br />
@@ -52,7 +52,7 @@ Type <b> mv SOURCE DEST</b> as follows :
 <br />
 <br />
 We can see by listing the contents of the cflynn directory that the project directory was successfully moved.
-## Chapter 4: Remove a file from a directory
+# Chapter 4: Remove a file from a directory
 -Step 1:
 ---
 Type <b>rm [Option] file...</b>
@@ -70,7 +70,7 @@ Output should be as follows:
 <br />
 <br />
 As we can see by listing the contents of the <b>rcronn</b> directory the <b>personal_appointments</b> has been removed.
-## Chapter 5: Change the user owner of a file
+# Chapter 5: Change the user owner of a file
 To change the user owner of a file type in : chown USER FILE
 <br />
 <br />
@@ -84,7 +84,7 @@ To change the group owner of a file type in : chgrp GROUP FILE
 <img src="https://imgur.com/YvA9ie1.png" height="65%" width="65%" alt="File Explorer"/>
 <br />
 <br />
-## Chapter 6: Change permissions of a file
+# Chapter 6: Change permissions of a file
 To change permissions of a file type <b>chmod [0-7][0-7][0-7] FILENAME</b>
 as follows :
 <br />
